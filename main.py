@@ -1,4 +1,5 @@
 import streamlit as st
+from functions import get_todos, write_todos
 
 st.title("My To-Do App")
 st.subheader("This app is to increase your productivity")
